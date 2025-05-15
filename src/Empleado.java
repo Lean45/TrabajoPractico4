@@ -1,11 +1,11 @@
 import java.util.Random;
 
 public class Empleado {
-    int id;
-    String nombre;
-    String puesto;
-    double salario = 100000.0;
-    static int totalEmpleados = 0;
+    private int id;
+    private String nombre;
+    private String puesto;
+    private double salario = 100000.0;
+    private static int totalEmpleados = 0;
 
     Empleado(int id, String nombre, String puesto, int salario) {
         this.id = id;
